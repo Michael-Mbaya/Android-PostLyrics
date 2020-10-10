@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -25,18 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ButterKnife.bind(this);
         mSearchButton.setOnClickListener(this);
     }
-//if( userName.getText().toString().isEmpty()){
-//
-//        /**
-//         *   You can Toast a message here that the Username is Empty
-//         **/
-//
-//        userName.setError( "First name is required!" );
-//
-//    }else{
-//        Intent i = new Intent(getApplicationContext(), Login.class);
-//        startActivity(i);
-//    }
+
     @Override
     public void onClick(View v){
         if(v==mSearchButton){
@@ -47,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String searchMusic = mEditTextSearch.getText().toString();
                 Intent intent = new Intent(MainActivity.this, SearchActivity.class);
                 //pass data with intent extras
-                intent.putExtra("searchMusic", searchMusic);
+                intent.putExtra("searchedMusic", searchMusic);
                 //go to search activity
                 startActivity(intent);
                 Toast.makeText(MainActivity.this, "Searching for --- " + searchMusic, Toast.LENGTH_LONG).show();
