@@ -25,17 +25,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ButterKnife.bind(this);
         mSearchButton.setOnClickListener(this);
     }
-
+//if( userName.getText().toString().isEmpty()){
+//
+//        /**
+//         *   You can Toast a message here that the Username is Empty
+//         **/
+//
+//        userName.setError( "First name is required!" );
+//
+//    }else{
+//        Intent i = new Intent(getApplicationContext(), Login.class);
+//        startActivity(i);
+//    }
     @Override
     public void onClick(View v){
         if(v==mSearchButton){
-            String searchMusic =mEditTextSearch.getText().toString();
-            Intent intent = new Intent(MainActivity.this,SearchActivity.class);
-            //pass data with intent extras
-            intent.putExtra("searchMusic", searchMusic);
-            //go to search activity
-            startActivity(intent);
-            Toast.makeText(MainActivity.this, "Searching for --- "+searchMusic, Toast.LENGTH_LONG).show();
+            if (mEditTextSearch.getText().toString().isEmpty()) {
+                Toast.makeText(MainActivity.this, "Search Text is Required", Toast.LENGTH_LONG).show();
+                mEditTextSearch.setError("Search Text is Required");
+            }else {
+                String searchMusic = mEditTextSearch.getText().toString();
+                Intent intent = new Intent(MainActivity.this, SearchActivity.class);
+                //pass data with intent extras
+                intent.putExtra("searchMusic", searchMusic);
+                //go to search activity
+                startActivity(intent);
+                Toast.makeText(MainActivity.this, "Searching for --- " + searchMusic, Toast.LENGTH_LONG).show();
+            }
         }
     }
 
