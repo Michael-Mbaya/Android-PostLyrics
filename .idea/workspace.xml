@@ -10,17 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d0a3d47-e11c-4f53-9215-73b8dd24abc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/SearchActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/SmartWatch.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/alien_wars.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/alien_wars_font/AlienWars-3V3M.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/alien_wars_font/AlienWars-wMR6.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/alien_wars_font/AlienWarsItalic-vr19.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/alien_wars_font/AlienWarsItalic-xWDO.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/droid_sans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/fabrica.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/falling_sky.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/falling_sky_font.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/long_fox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/long_fox_font.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/renegades.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/robot_renegades.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/roboto_regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +63,7 @@
       <list>
         <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -71,11 +85,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/font" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/font" />
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
     </key>
   </component>
@@ -161,14 +176,22 @@
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="448" y="146" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/64.27.1302.741@64.27.1302.741" timestamp="1602331915649" />
-    <state x="481" y="167" width="824" height="491" key="AndroidCreateResourceFileDialog" timestamp="1602342527991">
+    <state x="532" y="155" width="824" height="491" key="AndroidCreateResourceDirectoryDialog" timestamp="1602353324892">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state x="481" y="167" width="824" height="491" key="AndroidCreateResourceFileDialog/64.27.1302.741@64.27.1302.741" timestamp="1602342527991" />
+    <state x="532" y="155" width="824" height="491" key="AndroidCreateResourceDirectoryDialog/64.27.1302.741@64.27.1302.741" timestamp="1602353324892" />
+    <state x="481" y="167" width="824" height="487" key="AndroidCreateResourceFileDialog" timestamp="1602355177420">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state x="481" y="167" width="824" height="487" key="AndroidCreateResourceFileDialog/64.27.1302.741@64.27.1302.741" timestamp="1602355177420" />
     <state x="564" y="212" width="292" height="426" key="AndroidCreateXmlResourceDialog" timestamp="1602343664184">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="564" y="212" width="292" height="426" key="AndroidCreateXmlResourceDialog/64.27.1302.741@64.27.1302.741" timestamp="1602343664184" />
+    <state x="398" y="155" width="624" height="491" key="Downloadable.Font.Dialog.Size" timestamp="1602355414956">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state x="398" y="155" width="624" height="491" key="Downloadable.Font.Dialog.Size/64.27.1302.741@64.27.1302.741" timestamp="1602355414956" />
     <state width="628" height="130" key="GridCell.Tab.0.bottom" timestamp="1602230653327">
       <screen x="64" y="27" width="1302" height="741" />
     </state>

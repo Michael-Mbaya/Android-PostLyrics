@@ -8,14 +8,21 @@
 
     <TextView
         android:id="@+id/searchTextView"
-        android:layout_width="318dp"
-        android:layout_height="65dp"
+        android:layout_width="409dp"
+        android:layout_height="55dp"
+        android:background="#F30E0E"
+        android:fontFamily="@font/falling_sky_font"
         android:paddingTop="10dp"
         android:text="@string/searched"
         android:textAlignment="center"
-        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

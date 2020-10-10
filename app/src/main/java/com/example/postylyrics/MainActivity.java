@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             intent.putExtra("searchMusic", searchMusic);
             //go to search activity
             startActivity(intent);
+            Toast.makeText(MainActivity.this, "Searching for --- "+searchMusic, Toast.LENGTH_LONG).show();
         }
     }
 
