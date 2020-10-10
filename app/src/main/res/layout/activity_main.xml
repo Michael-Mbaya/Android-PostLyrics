@@ -1,26 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="66dp"
-        android:text="My App"
-        android:textAlignment="center"
-        android:textSize="30sp" />
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_music">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:layout_marginTop="60dp"
-        android:text="Hello"
+        android:id="@+id/mainTextView"
+        android:layout_width="361dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="92dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/postylyrics_n_instant_lyrics_search"
         android:textAlignment="center"
-        android:textSize="30sp" />
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/searchImageView"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/searchsection"
+        android:outlineProvider="paddedBounds"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/baseline_search_black_18dp" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="197dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="160dp"
+        android:backgroundTint="#FFC107"
+        android:text="@string/search"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTexSearch"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/faveImageView"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/favesection"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="@+id/searchImageView"
+        app:layout_constraintTop_toBottomOf="@+id/mainTextView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/baseline_favorite_border_black_18dp" />
+
+    <ImageView
+        android:id="@+id/adjustImageView"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/adjustsection"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/baseline_tune_black_18dp" />
+
+    <EditText
+        android:id="@+id/editTexSearch"
+        android:layout_width="243dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="128dp"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/music_name"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A5B8B6"
+        app:layout_constraintBottom_toTopOf="@+id/faveImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTextView"
+        app:layout_constraintVertical_bias="0.212"
+        android:autofillHints="" />
+
+    <ImageView
+        android:id="@+id/searchNearText"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="128dp"
+        android:backgroundTint="#03A9F4"
+        android:contentDescription="@string/searchhere"
+        android:paddingBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/searchImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTextView"
+        app:layout_constraintVertical_bias="0.189"
+        app:srcCompat="@drawable/baseline_search_black_18dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">PostyLyrics</string>
+    <string name="postylyrics_n_instant_lyrics_search">PostyLyrics \n Instant Lyrics Search</string>
+    <string name="searchhere">searchHere</string>
+    <string name="favesection">faveSection</string>
+    <string name="adjustsection">adjustSection</string>
+    <string name="searchsection">searchSection</string>
+    <string name="search">Search</string>
+    <string name="music_name">Music Name</string>
 </resources>
