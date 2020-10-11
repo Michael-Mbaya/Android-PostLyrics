@@ -25,14 +25,14 @@ public class MainActivityInstrumentedTest {
 
     @Test
     public void validateEditText() {
-        onView(withId(R.id.editTexSearch)).perform(typeText("Search Me"))
+        onView(withId(R.id.editTextSearch)).perform(typeText("Search Me"))
                 .check(matches(withText("Search Me")));
     }
 
     @Test
     public void searchIsSentToSearchActivity() {
         String testSearch = "Migos";
-        onView(withId(R.id.editTexSearch)).perform(typeText(testSearch)).perform(closeSoftKeyboard());
+        onView(withId(R.id.editTextSearch)).perform(typeText(testSearch)).perform(closeSoftKeyboard());
         try {                             // the sleep method requires to be checked and handled so we use try block
             Thread.sleep(250);
         } catch (InterruptedException e){

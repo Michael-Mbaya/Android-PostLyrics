@@ -16,7 +16,7 @@ import butterknife.ButterKnife;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     @BindView(R.id.searchButton) Button mSearchButton;
-    @BindView(R.id.editTexSearch) EditText mEditTextSearch;
+    @BindView(R.id.editTextSearch) EditText mEditTextSearch;
     @BindView(R.id.infoImageView) ImageView mInfoImageView;
 
     @Override
