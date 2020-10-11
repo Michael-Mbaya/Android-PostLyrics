@@ -10,19 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d0a3d47-e11c-4f53-9215-73b8dd24abc0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/postylyrics/MainActivityInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/postylyrics/MainActivityInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/AboutActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/postylyrics/MainActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/postylyrics/MainActivityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +81,7 @@
       <recent name="$PROJECT_DIR$/app/src/main/res/font" />
     </key>
   </component>
-  <component name="RunManager" selected="Android JUnit.MainActivityTest.searchActivityStarted">
+  <component name="RunManager" selected="Android JUnit.MainActivityTest">
     <configuration name="MainActivityTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -235,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android JUnit.MainActivityTest" />
         <item itemvalue="Android JUnit.MainActivityTest.searchActivityStarted" />
         <item itemvalue="Android JUnit.MainActivityTest.TextViewContent" />
         <item itemvalue="Android JUnit.MainActivityTest.validateEditTextViewContent" />
         <item itemvalue="Android JUnit.MainActivityTest.secondActivityStarted" />
-        <item itemvalue="Android JUnit.MainActivityTest" />
       </list>
     </recent_temporary>
   </component>
@@ -288,22 +279,22 @@
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="493" y="158" width="424" height="491" key="FileChooserDialogImpl/64.27.1302.741@64.27.1302.741" timestamp="1602436979785" />
-    <state width="1256" height="254" key="GridCell.Tab.0.bottom" timestamp="1602456219721">
+    <state width="1256" height="254" key="GridCell.Tab.0.bottom" timestamp="1602456594885">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="254" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1602456219721" />
-    <state width="1256" height="254" key="GridCell.Tab.0.center" timestamp="1602456219720">
+    <state width="1256" height="254" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1602456594885" />
+    <state width="1256" height="254" key="GridCell.Tab.0.center" timestamp="1602456594884">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="254" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1602456219720" />
-    <state width="1256" height="254" key="GridCell.Tab.0.left" timestamp="1602456219720">
+    <state width="1256" height="254" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1602456594884" />
+    <state width="1256" height="254" key="GridCell.Tab.0.left" timestamp="1602456594884">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="254" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1602456219720" />
-    <state width="1256" height="254" key="GridCell.Tab.0.right" timestamp="1602456219721">
+    <state width="1256" height="254" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1602456594884" />
+    <state width="1256" height="254" key="GridCell.Tab.0.right" timestamp="1602456594884">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="254" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1602456219721" />
+    <state width="1256" height="254" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1602456594884" />
     <state width="1256" height="215" key="GridCell.Tab.1.bottom" timestamp="1602455590852">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
