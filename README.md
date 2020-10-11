@@ -39,7 +39,7 @@ It is my chosen IP (Independent Project) for the near future (few weeks) impleme
 * For any enquiries and comments, reach out at: 
 * gikundamike@gmail.com
 
-## Contributing
+## CONTRIBUTION
 
 1. Fork this Repository
 2. Create your feature branch (git checkout -b my-new-feature)

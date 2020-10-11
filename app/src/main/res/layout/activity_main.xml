@@ -92,7 +92,7 @@
         android:backgroundTint="#FFFFFF"
         android:ems="10"
         android:hint="@string/artist_song_or_name"
-        android:inputType="textPersonName"
+        android:inputType="none|textPersonName"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textColorHint="#A5B8B6"
