@@ -8,4 +8,5 @@
     <string name="search">Search</string>
     <string name="music_name">Music Name</string>
     <string name="searched">Searched</string>
+    <string name="artist_song_or_name">Artist, Song or Name</string>
 </resources>

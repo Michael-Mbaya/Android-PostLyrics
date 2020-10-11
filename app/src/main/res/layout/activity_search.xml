@@ -4,7 +4,49 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity">
+
+    <ImageView
+        android:id="@+id/adjustImageView2"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="51dp"
+        android:contentDescription="@string/adjustsection"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musicListView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/baseline_tune_black_18dp" />
+
+    <ImageView
+        android:id="@+id/faveImageView2"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/favesection"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musicListView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/baseline_favorite_border_black_18dp" />
+
+    <ImageView
+        android:id="@+id/searchImageView2"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/searchsection"
+        android:outlineProvider="paddedBounds"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musicListView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/baseline_search_black_18dp" />
 
     <TextView
         android:id="@+id/searchTextView"
@@ -23,6 +65,17 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ListView
+        android:id="@+id/musicListView"
+        android:layout_width="410dp"
+        android:layout_height="552dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchTextView"
         app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

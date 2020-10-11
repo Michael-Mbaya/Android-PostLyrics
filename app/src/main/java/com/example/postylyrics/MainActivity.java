@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(v==mSearchButton){
             if (mEditTextSearch.getText().toString().isEmpty()) {
                 Toast.makeText(MainActivity.this, "Search Text is Required", Toast.LENGTH_LONG).show();
-                mEditTextSearch.setError("Search Text is Required");
+//                mEditTextSearch.setError("Search Text is Required");
+                Toast.makeText(MainActivity.this, "Search Text is Required", Toast.LENGTH_LONG).show();
             }else {
                 String searchMusic = mEditTextSearch.getText().toString();
                 Intent intent = new Intent(MainActivity.this, SearchActivity.class);
