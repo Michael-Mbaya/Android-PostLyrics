@@ -19,12 +19,9 @@ public class AboutActivity extends AppCompatActivity {
 
     private String[] aboutDetails = new String[]{"Follow us on LinkedIn", "Follow us on YouTube", "Follow us on Pinterest", "Follow us on Snapchat",
             "Follow us on Facebook", "Follow us on Twitter", "Follow us on Instagram", "Follow us on TikTok", "Follow us on Yelp", "Follow us on Flickr"};
-    @BindView(R.id.aboutListView)
-    ListView mAboutListView;
-    @BindView(R.id.aboutTextView)
-    TextView mAboutTextView;
-    @BindView(R.id.logoImageView)
-    ImageView mAboutImageView;
+    @BindView(R.id.aboutListView) ListView mAboutListView;
+    @BindView(R.id.aboutTextView) TextView mAboutTextView;
+    @BindView(R.id.logoImageView) ImageView mAboutImageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
