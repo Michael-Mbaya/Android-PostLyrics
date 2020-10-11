@@ -17,10 +17,8 @@ public class SearchActivity extends AppCompatActivity {
     private String[] lyricsFound = new String[]{"Song 3 Lyrics", "Song 2 Lyrics", "Song 3 Lyrics", "Song 4 Lyrics", "Song 5 Lyrics", "Song 6 Lyrics",
             "Song 7 Lyrics", "Song 8 Lyrics", "Song 9 Lyrics", "Song 10 Lyrics", "Song 11 Lyrics", "Song 12 Lyrics", "Song 13 Lyrics","Song 14 Lyrics",
             "Song 15 Lyrics"};
-    @BindView(R.id.searchTextView)
-    TextView mSearchedText;
-    @BindView(R.id.musicListView)
-    ListView mMusicList;
+    @BindView(R.id.searchTextView) TextView mSearchedText;
+    @BindView(R.id.musicListView) ListView mMusicList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

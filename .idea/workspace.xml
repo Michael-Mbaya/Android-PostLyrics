@@ -10,24 +10,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d0a3d47-e11c-4f53-9215-73b8dd24abc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/AboutActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/baseline_info_black_18dp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/posty_lyrics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/song_music_lyrics_others.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/bg_stars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/posty_lyric.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/AboutActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/AboutActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/SearchActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/postylyrics/SearchActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/bg_mic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/bg_mic_white.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/search_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/song_music_lyrics_others.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,30 +209,34 @@
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="398" y="155" width="624" height="491" key="Downloadable.Font.Dialog.Size/64.27.1302.741@64.27.1302.741" timestamp="1602355414956" />
-    <state width="1256" height="125" key="GridCell.Tab.0.bottom" timestamp="1602433076074">
+    <state x="493" y="158" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602436979785">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="125" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1602433076074" />
-    <state width="1256" height="125" key="GridCell.Tab.0.center" timestamp="1602433076074">
+    <state x="493" y="158" width="424" height="491" key="FileChooserDialogImpl/64.27.1302.741@64.27.1302.741" timestamp="1602436979785" />
+    <state width="1256" height="125" key="GridCell.Tab.0.bottom" timestamp="1602437928930">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="125" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1602433076074" />
-    <state width="1256" height="125" key="GridCell.Tab.0.left" timestamp="1602433076074">
+    <state width="1256" height="125" key="GridCell.Tab.0.bottom/64.27.1302.741@64.27.1302.741" timestamp="1602437928930" />
+    <state width="1256" height="125" key="GridCell.Tab.0.center" timestamp="1602437928929">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="125" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1602433076074" />
-    <state width="1256" height="125" key="GridCell.Tab.0.right" timestamp="1602433076074">
+    <state width="1256" height="125" key="GridCell.Tab.0.center/64.27.1302.741@64.27.1302.741" timestamp="1602437928929" />
+    <state width="1256" height="125" key="GridCell.Tab.0.left" timestamp="1602437928929">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state width="1256" height="125" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1602433076074" />
+    <state width="1256" height="125" key="GridCell.Tab.0.left/64.27.1302.741@64.27.1302.741" timestamp="1602437928929" />
+    <state width="1256" height="125" key="GridCell.Tab.0.right" timestamp="1602437928930">
+      <screen x="64" y="27" width="1302" height="741" />
+    </state>
+    <state width="1256" height="125" key="GridCell.Tab.0.right/64.27.1302.741@64.27.1302.741" timestamp="1602437928930" />
     <state x="204" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1602231469381">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
     <state x="204" y="31" width="1022" height="737" key="SettingsEditor/64.27.1302.741@64.27.1302.741" timestamp="1602231469381" />
-    <state x="487" y="177" width="446" height="447" key="chooseDestDirectoryDialog" timestamp="1602430883194">
+    <state x="487" y="177" width="446" height="447" key="chooseDestDirectoryDialog" timestamp="1602437545733">
       <screen x="64" y="27" width="1302" height="741" />
     </state>
-    <state x="487" y="177" width="446" height="447" key="chooseDestDirectoryDialog/64.27.1302.741@64.27.1302.741" timestamp="1602430883194" />
+    <state x="487" y="177" width="446" height="447" key="chooseDestDirectoryDialog/64.27.1302.741@64.27.1302.741" timestamp="1602437545733" />
     <state x="164" y="127" width="1102" height="541" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1602330479974">
       <screen x="64" y="27" width="1302" height="741" />
     </state>

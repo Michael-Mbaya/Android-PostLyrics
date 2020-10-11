@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @BindView(R.id.searchButton) Button mSearchButton;
     @BindView(R.id.editTexSearch) EditText mEditTextSearch;
-//    @BindView(R.id.infoImageButton) ImageButton mInfoImageButton;
     @BindView(R.id.infoImageView) ImageView mInfoImageView;
 
     @Override
