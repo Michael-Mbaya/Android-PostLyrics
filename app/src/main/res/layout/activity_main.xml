@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -119,5 +118,19 @@
         app:layout_constraintTop_toBottomOf="@+id/mainTextView"
         app:layout_constraintVertical_bias="0.189"
         app:srcCompat="@drawable/baseline_search_black_18dp" />
+
+    <ImageView
+        android:id="@+id/infoImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#FFC107"
+        android:contentDescription="@string/infoimageview"
+        app:layout_constraintBottom_toBottomOf="@+id/mainTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.868"
+        app:srcCompat="@drawable/baseline_info_black_18dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
