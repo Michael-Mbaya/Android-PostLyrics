@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SearchActivity">
+    tools:context=".SearchListActivity">
 
     <ImageView
         android:id="@+id/adjustImageView"
@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/musicListView"
+        app:layout_constraintTop_toBottomOf="@+id/tracksListView"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/baseline_tune_black_18dp" />
 
@@ -30,7 +30,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/musicListView"
+        app:layout_constraintTop_toBottomOf="@+id/tracksListView"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/baseline_favorite_border_black_18dp" />
 
@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/musicListView"
+        app:layout_constraintTop_toBottomOf="@+id/tracksListView"
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/baseline_search_black_18dp" />
 
@@ -68,14 +68,12 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ListView
-        android:id="@+id/musicListView"
+        android:id="@+id/tracksListView"
         android:layout_width="403dp"
         android:layout_height="549dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchTextView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/searchTextView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

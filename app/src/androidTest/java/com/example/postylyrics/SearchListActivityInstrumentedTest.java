@@ -23,10 +23,10 @@ import static org.hamcrest.Matchers.not;
 
 @RunWith(AndroidJUnit4.class)
 @LargeTest
-public class SearchActivityInstrumentedTest {
+public class SearchListActivityInstrumentedTest {
 
     @Rule
-    public ActivityTestRule<SearchActivity> activityTestRule = new ActivityTestRule<>(SearchActivity.class);
+    public ActivityTestRule<SearchListActivity> activityTestRule = new ActivityTestRule<>(SearchListActivity.class);
 
     @Test
     public void listItemClickDisplaysToastWithCorrectLyricSearchedItem() {
@@ -34,7 +34,7 @@ public class SearchActivityInstrumentedTest {
 //        String lyricsResultTest = "Song 1 Lyrics";
         String lyricsResultTestTwo = "Song 2 Lyrics";
         onData(anything())
-                .inAdapterView(withId(R.id.musicListView))
+                .inAdapterView(withId(R.id.tracksListView))
 //                .atPosition(0)
                 .atPosition(1)
                 .perform(click());
