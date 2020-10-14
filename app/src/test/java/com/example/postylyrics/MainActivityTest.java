@@ -3,6 +3,9 @@ package com.example.postylyrics;
 import android.content.Intent;
 import android.os.Build;
 
+import com.example.postylyrics.ui.AboutActivity;
+import com.example.postylyrics.ui.MainActivity;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
